@@ -29,7 +29,7 @@ class _Splash_screenState extends State<splashScreen> {
         child: Column(
           children: [
             Image.asset('assets/images/dukaan.png'),
-            Text(
+            const Text(
               'DUKAAN',
               style: TextStyle(
                   color: Colors.white,
